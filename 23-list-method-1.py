@@ -1,0 +1,21 @@
+colors=["violet", "indigo", "blue", "green"]
+colors.sort()
+print(colors)
+colors.sort(reverse=True)
+print(colors)
+colors.reverse()
+print(colors)
+colors=["violet", "green", "indigo", "blue", "green"]
+rainbow=["Yellow", "orange", "Red"]
+print(colors.index("green"))
+print(colors.count("green"))
+newlist=colors.copy()
+print(colors)
+print(newlist)
+colors.append("red")
+print(colors)
+colors.insert(1, "green")
+print(colors)
+colors.extend(rainbow)
+print(colors)
+print(colors + rainbow)

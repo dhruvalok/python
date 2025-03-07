@@ -41,3 +41,5 @@ print(str5.istitle())
 print(str9.startswith("Welcome"))
 print(str9.swapcase())
 print(str3.title())
+str_a="His name is Dan. He is an honest man."  #exception value
+print(str_a.find("Daniel"))

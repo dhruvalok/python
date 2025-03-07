@@ -1,5 +1,5 @@
 n=int(input("Enter the 1st Number: "))
-m=int(input("Enter the 2nd12 Number: "))
+m=int(input("Enter the 2nd Number: "))
 ans1=n+m
 print("Addition of" ,n, "and",m,"is", ans1)
 ans2=n-m
