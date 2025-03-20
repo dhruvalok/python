@@ -9,10 +9,15 @@
 #     if (a%2!=0):
 #         continue
 #     print(a)
-i = 0
-while True:
-    print(i)
-    i = i + 1
-    if (i % 100 == 0):
+# i = 0
+# while True:
+#     print(i)
+#     i = i + 1
+#     if (i % 100 == 0):
+#         break
+# print("Thank You!!")
+for i in range (12):
+    print("5 X",i+1, "=", 5*(i+1))
+    if (i==0):
         break
-print("Thank You!!")
+print("out of loop")

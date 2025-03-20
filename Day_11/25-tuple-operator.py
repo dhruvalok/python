@@ -3,7 +3,7 @@ Countries = ("Spain", "Italy", "India", "England", "Germany")
 temp = list(Countries)
 temp.append("Russia")
 temp.pop(3)
-temp[2]="Finland"
+#temp[2]="Finland"
 Countries = tuple(temp)
 print(Countries)
 

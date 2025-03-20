@@ -24,9 +24,9 @@
 #     print("hello", name["fname"], name["mname"], name["lname"])
 # name(fname="Alok", mname="Kumar", lname="Singh")
 #return Statemnet
-# def name(fname, mname, lname):
-#     return "Hello, " + fname + " " + mname + " " + lname
-# print(name("Alok", "kumar","Singh"))
+def name(fname, mname, lname):
+    return "Hello, " + fname + " " + mname + " " + lname
+print(name("Alok", "kumar","Singh"))
 
 
 # def average(a=1, b=2, c=3):
